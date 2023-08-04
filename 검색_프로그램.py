@@ -57,7 +57,7 @@ wartermark = tk.Label(program,text='making by E.S.C.',font=tkFont.Font(family=""
 loding = tk.Label(program,text='',font=tkFont.Font(family="", size=25))
 select = tk.Button(program,text='실행',command=Enter1)
 list = tk.Listbox(program,width=21)
-list.insert(0,'몬테카를로 방법')
+list.insert(0,'몬테카를로 실험')
 list.insert(0,'입자의 운동 실험')
 list.insert(0,'[추가되어있는 시뮬레이션]')
 
