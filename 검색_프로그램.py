@@ -2,6 +2,7 @@ import os
 from difflib import SequenceMatcher
 import tkinter as tk
 import tkinter.font as tkFont
+import tkinter.ttk as ttk
 
 r = os.path.join(os.getcwd(),'시뮬레이션')
 similarity = {}
@@ -44,7 +45,6 @@ def Enter1():
 program = tk.Tk()
 program.title("simulation search program")
 program.geometry("1920x1080")
-program.resizable()
 
 input_value = tk.StringVar()
 
